@@ -10,7 +10,9 @@ function Offcanvas(props: Actions) {
   return (
     <div
       className={
-        props.toggle ? "md:fixed z-20 top-0 left-0 w-screen flex text-sm" : "hidden"
+        props.toggle
+          ? "md:fixed z-20 top-0 left-0 w-screen flex text-sm"
+          : "hidden"
       }
     >
       <ul className="bg-white shadow-lg min-h-screen w-[320px]">
@@ -26,7 +28,16 @@ function Offcanvas(props: Actions) {
         </li>
         {Links.map(({ link, title }, i) => (
           <li key={i} className={`font-semibold ${!i ? "p-5" : "px-5 pb-5"}`}>
-            <Link href={link}>{t(title)}</Link>
+            <Link
+              href={link}
+              onClick={() =>
+                setTimeout(() => {
+                  props.setToggle(false);
+                }, 1000)
+              }
+            >
+              {t(title)}
+            </Link>
           </li>
         ))}
       </ul>

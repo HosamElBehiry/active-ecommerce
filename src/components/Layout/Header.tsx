@@ -17,14 +17,16 @@ function Header(props: Actions) {
           className="hidden md:block cursor-pointer"
           size="1.5rem"
         />
-        <Image
-          src="/imgs/active-ecommerce-logo.png"
-          className="md:mx-4 h-auto w-[270px] xs:w-[200px]"
-          height={100}
-          width={270}
-          priority
-          alt=""
-        />
+        <Link href="/">
+          <Image
+            src="/imgs/active-ecommerce-logo.png"
+            className="md:mx-4 h-auto w-[270px] xs:w-[200px]"
+            height={100}
+            width={270}
+            priority
+            alt=""
+          />
+        </Link>
       </div>
       <AiOutlineSearch
         size="1.5rem"
@@ -33,7 +35,7 @@ function Header(props: Actions) {
       <div className="w-[400px] lg:w-1/2 relative md:hidden">
         <input
           placeholder={t("IamShoppingFor")}
-          className="w-full outline-none py-2 px-4 border rounded-3xl"
+          className="w-full outline-none py-2 px-4 border rounded-3xl focus:border-red-600 focus:border-2"
         />
         <AiOutlineSearch
           size="1.3rem"
