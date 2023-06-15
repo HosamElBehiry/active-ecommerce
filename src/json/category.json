@@ -1,0 +1,74 @@
+{
+  "Home": [
+    {
+      "name": {
+        "en": "Women Clothing & Fashion",
+        "ar": "ملابس الحريمى والموضة"
+      },
+      "image": "/imgs/categories/1.jpg"
+    },
+    {
+      "name": {
+        "en": "Men Clothing & Fashion",
+        "ar": "ملابس الرجالى والموضة"
+      },
+      "image": "/imgs/categories/2.jpg"
+    },
+    {
+      "name": {
+        "en": "Computer & Accessories",
+        "ar": "الكمبيوتر والإكسسوارات"
+      },
+      "image": "/imgs/categories/3.jpg"
+    },
+    {
+      "name": {
+        "en": "Automobile & Motorcycle",
+        "ar": "أوتوموبيل وموتوسيكلات"
+      },
+      "image": "/imgs/categories/4.jpg"
+    },
+    {
+      "name": {
+        "en": "Kids & Toys",
+        "ar": "الالعاب والأطفال"
+      },
+      "image": "/imgs/categories/5.jpg"
+    },
+    {
+      "name": {
+        "en": "Sports & OutDoors",
+        "ar": "رياضة"
+      },
+      "image": "/imgs/categories/6.jpg"
+    },
+    {
+      "name": {
+        "en": "Jwellery & Watches",
+        "ar": "مجوهرات وساعات"
+      },
+      "image": "/imgs/categories/7.jpg"
+    },
+    {
+      "name": {
+        "en": "CellPhones & Tabs",
+        "ar": "موبايلات وتابلت"
+      },
+      "image": "/imgs/categories/8.jpg"
+    },
+    {
+      "name": {
+        "en": "Beauty & Health & Hair",
+        "ar": "الجمال والشعر الصحى"
+      },
+      "image": "/imgs/categories/9.jpg"
+    },
+    {
+      "name": {
+        "en": "Home Improvements & Tools",
+        "ar": "تحسين المنازل والأدوات"
+      },
+      "image": "/imgs/categories/10.jpg"
+    }
+  ]
+}

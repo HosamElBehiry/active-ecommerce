@@ -1,0 +1,24 @@
+.dropDownMenu ul {
+  display: none;
+}
+
+.dropDownMenu:hover ul {
+  display: block;
+}
+
+.menuOptions::-webkit-scrollbar {
+  height: 5px;
+}
+
+.menuOptions::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.2);
+}
+
+.menuOptions::-webkit-scrollbar-thumb {
+  --tw-bg-opacity: 1;
+  background-color: rgb(185 28 28 / var(--tw-bg-opacity));
+}
+
+.cartContainer:hover > div {
+  display: flex;
+}
