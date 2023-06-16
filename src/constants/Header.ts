@@ -3,7 +3,7 @@ import { Options } from "@/interfaces/Layout.interface";
 // used in OffCanvas and Menu Components
 export const Links: Options = [
   {
-    link: "#",
+    link: "/",
     title: "Home",
   },
   {
@@ -23,7 +23,7 @@ export const Links: Options = [
     title: "All Categories",
   },
   {
-    link: "#",
+    link: "/vendors",
     title: "All Sellers",
   },
   {
