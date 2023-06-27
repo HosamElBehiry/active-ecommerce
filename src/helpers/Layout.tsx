@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { Fragment, useState } from "react";
 import Header from "@/components/Layout/Header";
 import Menu from "@/components/Layout/Menu/Menu";
 import Offcanvas from "@/components/Layout/Offcanvas";
@@ -12,7 +12,7 @@ import BottomFooter from "@/components/Layout/BottomFooter";
 function Layout(props: Interfaces.Actions | Interfaces.Layout) {
   const [toggle, setToggle] = useState(false);
   return (
-    <>
+    <Fragment>
       <TopHeader />
       <Header setToggle={setToggle} />
       <Offcanvas toggle={toggle} setToggle={setToggle} />
@@ -22,7 +22,7 @@ function Layout(props: Interfaces.Actions | Interfaces.Layout) {
       <Footer />
       <BottomFooter />
       <BottomMenu />
-    </>
+    </Fragment>
   );
 }
 

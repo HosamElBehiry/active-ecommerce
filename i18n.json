@@ -16,6 +16,12 @@
     ],
     "/vendors": [
       "vendors"
+    ],
+    "rgx:^/blogs/*": [
+      "blogs"
+    ],
+    "/today-deals": [
+      "home"
     ]
   }
 }

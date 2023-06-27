@@ -1,0 +1,24 @@
+/* Featured Products */
+.productContainer {
+  position: relative;
+  cursor: pointer;
+}
+
+.productContainer:hover > div > div:first-child,
+.productContainer:hover > div > div:last-of-type {
+  visibility: visible;
+  transition: all 0.2s ease-in-out;
+}
+
+.productContainer:hover > div > div:first-child {
+  right: 1.25rem;
+}
+
+.productContainer:hover > div > div:last-of-type {
+  --tw-bg-opacity: 1;
+  background-color: rgb(63 63 70 / var(--tw-bg-opacity));
+}
+
+.productContainer:hover > div > div:last-of-type:hover {
+  background: #000;
+}
