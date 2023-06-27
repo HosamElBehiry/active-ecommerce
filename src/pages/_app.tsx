@@ -1,11 +1,11 @@
-import Layout from "@/helpers/Layout";
-import { useEffect } from "react";
-import type { AppProps } from "next/app";
-import useTranslation from "next-translate/useTranslation";
 import "swiper/css";
 import "swiper/css/grid";
 import "@/styles/globals.css";
 import { Cairo } from "next/font/google";
+import Layout from "@/components/Helpers/Layout";
+import useTranslation from "next-translate/useTranslation";
+import { useEffect } from "react";
+import type { AppProps } from "next/app";
 const font = Cairo({ weight: "400", subsets: ["latin"] });
 
 export default function App({ Component, pageProps }: AppProps) {

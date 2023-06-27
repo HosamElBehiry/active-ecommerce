@@ -4,9 +4,8 @@ import { useState } from "react";
 import type { Swiper as SwiperProps } from "swiper";
 import useTranslation from "next-translate/useTranslation";
 import { FeaturedBreakPoints } from "@/constants/BreakPoints";
-import Styles from "@/styles/site/home.module.css";
 import * as Interafce from "@/interfaces/Home.interface";
-import ProductCard from "@/helpers/ProductCard";
+import ProductCard from "@/components/Helpers/ProductCard";
 
 function FeaturedProducts(props: Interafce.Title) {
   const [my_swiper, set_my_swiper] = useState({} as SwiperProps);

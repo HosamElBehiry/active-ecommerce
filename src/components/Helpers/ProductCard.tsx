@@ -1,7 +1,7 @@
 import Image from "next/image";
 import NumberFormat from "@/constants/Fotmatter";
-import useTranslation from "next-translate/useTranslation";
 import Styles from "@/styles/site/product-card.module.css";
+import useTranslation from "next-translate/useTranslation";
 import { ProductCardProps } from "@/interfaces/Product.interface";
 import { AiFillHeart, AiOutlineShoppingCart } from "react-icons/ai";
 import { MdCompareArrows } from "react-icons/md";
@@ -10,8 +10,8 @@ const ProductCard = ({ i }: ProductCardProps) => {
   const { t, lang } = useTranslation("common");
   return (
     <section className={Styles.productContainer}>
-      <div className="border p-4 hover:border-red-600 ">
-        <div className="absolute top-5 -right-5 invisible z-0">
+      <div className="border p-4 hover:border-red-600 relative">
+        <div className="absolute top-5 -right-7 invisible">
           <div className="mb-2 bg-white shadow-md p-2 hover:bg-red-600 hover:text-white text-zinc-400">
             <AiFillHeart size="1.2rem" />
           </div>

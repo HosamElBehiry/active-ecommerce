@@ -1,4 +1,4 @@
-import BreadCrumb from "@/helpers/BreadCrumb";
+import BreadCrumb from "@/components/Helpers/BreadCrumb";
 import Data from "@/json/brands.json";
 import useTranslation from "next-translate/useTranslation";
 import Image from "next/image";
