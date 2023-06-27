@@ -2,5 +2,12 @@
   "Vendors": "البائعين",
   "AllSellers": "جميع البائعين",
   "Review": "تقييمات",
-  "VisitStore": "زياره المتجر"
+  "VisitStore": "زياره المتجر",
+  "MemberSince": "عضو منذ",
+  "FollowSeller": "متابعة التاجر",
+  "UnFollowSeller": "إلغاء متابعة التاجر",
+  "StoreHome": "الرئيسية",
+  "TopSelling": "أفضل المبيعات",
+  "Coupons": "الكوبونات",
+  "AllProducts": "جميع المنتجات"
 }

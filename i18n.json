@@ -14,8 +14,9 @@
     "rgx:^/auth/*": [
       "auth"
     ],
-    "/vendors": [
-      "vendors"
+    "rgx:^/vendors/*": [
+      "vendors",
+      "home"
     ],
     "rgx:^/blogs/*": [
       "blogs"

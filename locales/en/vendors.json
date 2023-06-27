@@ -2,5 +2,12 @@
   "Vendors": "Vendors",
   "AllSellers": "All Sellers",
   "Review": "Reviews",
-  "VisitStore": "Visit Store"
+  "VisitStore": "Visit Store",
+  "MemberSince": "Member Since",
+  "FollowSeller": "Follow Seller",
+  "UnFollowSeller": "UnFollow Seller",
+  "StoreHome": "Store Home",
+  "TopSelling": "Top Selling",
+  "Coupons": "Coupons",
+  "AllProducts": "All Products"
 }

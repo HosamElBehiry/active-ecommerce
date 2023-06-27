@@ -41,7 +41,11 @@ function Vendors() {
                 <AiFillStar className="text-yellow-400" size="1.3rem" key={i} />
               ))}
               {[...Array(5 - vendor.review)].map((i) => (
-                <AiFillStar className="text-zinc-500" size="1.3rem" key={i} />
+                <AiFillStar
+                  className="text-zinc-500"
+                  size="1.3rem"
+                  key={100 + i}
+                />
               ))}
             </div>
             <p className="text-center text-zinc-500 my-3">
