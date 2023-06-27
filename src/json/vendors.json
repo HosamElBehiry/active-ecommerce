@@ -4,61 +4,61 @@
       "name": "Fillon Asset Store",
       "img": "1.png",
       "review": 5,
-      "link": "#"
+      "link": "/vendors/1"
     },
     {
       "name": "Pink Horizon",
       "img": "2.png",
       "review": 0,
-      "link": "#"
+      "link": "/vendors/2"
     },
     {
       "name": "Muscle Mart",
       "img": "3.png",
       "review": 0,
-      "link": "#"
+      "link": "/vendors/3"
     },
     {
       "name": "Create & Conquer",
       "img": "4.png",
       "review": 0,
-      "link": "#"
+      "link": "/vendors/4"
     },
     {
       "name": "Electro Ware",
       "img": "5.png",
       "review": 2,
-      "link": "#"
+      "link": "/vendors/5"
     },
     {
       "name": "Apple Store",
       "img": "6.png",
       "review": 0,
-      "link": "#"
+      "link": "/vendors/6"
     },
     {
       "name": "Jhonson",
       "img": "7.jpg",
       "review": 2,
-      "link": "#"
+      "link": "/vendors/7"
     },
     {
       "name": "Lavish Look",
       "img": "8.jpg",
       "review": 5,
-      "link": "#"
+      "link": "/vendors/8"
     },
     {
       "name": "Adiddas",
       "img": "9.jpg",
       "review": 2,
-      "link": "#"
+      "link": "/vendors/9"
     },
     {
       "name": "Louis Vuition",
       "img": "10.jpg",
       "review": 2,
-      "link": "#"
+      "link": "/vendors/10"
     }
   ]
 }
