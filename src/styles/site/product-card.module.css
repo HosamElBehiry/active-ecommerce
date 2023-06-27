@@ -8,6 +8,7 @@
 .productContainer:hover > div > div:last-of-type {
   visibility: visible;
   transition: all 0.2s ease-in-out;
+  z-index: 20;
 }
 
 .productContainer:hover > div > div:first-child {

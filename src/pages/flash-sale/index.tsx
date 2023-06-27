@@ -3,7 +3,7 @@ import Styles from "@/styles/site/flash-sale.module.css";
 import useTranslation from "next-translate/useTranslation";
 import Image from "next/image";
 
-function index() {
+function Index() {
   const { t } = useTranslation("common");
   return (
     <div className="w-5/6 xs:w-11/12 mx-auto">
@@ -53,4 +53,4 @@ function index() {
   );
 }
 
-export default index;
+export default Index;
