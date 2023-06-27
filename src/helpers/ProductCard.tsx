@@ -11,7 +11,7 @@ const ProductCard = ({ i }: ProductCardProps) => {
   return (
     <section className={Styles.productContainer}>
       <div className="border p-4 hover:border-red-600 ">
-        <div className="absolute top-5 -right-5 invisible">
+        <div className="absolute top-5 -right-5 invisible z-0">
           <div className="mb-2 bg-white shadow-md p-2 hover:bg-red-600 hover:text-white text-zinc-400">
             <AiFillHeart size="1.2rem" />
           </div>
