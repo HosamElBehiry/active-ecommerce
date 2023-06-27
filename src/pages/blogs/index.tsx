@@ -2,7 +2,7 @@ import { BsArrowRight } from "react-icons/bs";
 import { FiFilter } from "react-icons/fi";
 import RecentPosts from "@/components/Blogs/RecentPosts";
 import SideBar from "@/components/Blogs/SideBar";
-import BreadCrumb from "@/helpers/BreadCrumb";
+import BreadCrumb from "@/components/Helpers/BreadCrumb";
 import useTranslation from "next-translate/useTranslation";
 import Image from "next/image";
 import Link from "next/link";

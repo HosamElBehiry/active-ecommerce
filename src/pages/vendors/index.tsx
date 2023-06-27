@@ -1,6 +1,6 @@
 import { AiFillStar, AiOutlineCheck } from "react-icons/ai";
 import { RiArrowRightSLine } from "react-icons/ri";
-import BreadCrumb from "@/helpers/BreadCrumb";
+import BreadCrumb from "@/components/Helpers/BreadCrumb";
 import Image from "next/image";
 import useTranslation from "next-translate/useTranslation";
 import NumberFormat from "@/constants/Fotmatter";

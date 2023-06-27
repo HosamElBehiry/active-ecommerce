@@ -1,4 +1,4 @@
-import ProductCard from "@/helpers/ProductCard";
+import ProductCard from "@/components/Helpers/ProductCard";
 import Image from "next/image";
 
 const Index = () => {
