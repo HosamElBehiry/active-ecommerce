@@ -24,7 +24,7 @@ function FlashSale() {
           className={`border relative col-span-3 sm:col-span-4 ${Styles.flashTimeContainer}`}
         >
           <Image
-            src="/imgs/flash-sale/time-flash-sale.png"
+            src="/imgs/flash-sale/3_.png"
             className="object-fill"
             fill
             alt=""
@@ -54,8 +54,7 @@ function FlashSale() {
               <SwiperSlide className="border" key={i}>
                 <div className={Styles.flashImgContainer}>
                   <Image
-                    src={`/imgs/flash-sale/${i}.png`}
-                    className=""
+                    src={`/imgs/flash-sale/products/${i}.png`}
                     height={1000}
                     width={1000}
                     alt=""

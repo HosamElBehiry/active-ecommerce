@@ -1,0 +1,177 @@
+{
+  "Recents": [
+    {
+      "title": "Shirts Every Man Needs in His Wardrobe",
+      "img": "1.jpg",
+      "category": {
+        "en": "Men Fashions",
+        "ar": "موضة الرجال"
+      },
+      "date": "19 Feb 2023"
+    },
+    {
+      "title": "Effective Self Defense Tips for Women",
+      "img": "2.png",
+      "category": {
+        "en": "Life Hacks",
+        "ar": "الحياة"
+      },
+      "date": "20 Feb 2023"
+    },
+    {
+      "title": "What’s Trending This Winter Season?",
+      "img": "3.jpg",
+      "category": {
+        "en": "Fashion",
+        "ar": "الموضة"
+      },
+      "date": "25 Feb 2023"
+    },
+    {
+      "title": "How to Start an Online Store",
+      "img": "4.jpg",
+      "category": {
+        "en": "Online Sell",
+        "ar": "الشراء الإلكترونى"
+      },
+      "date": "21 Feb 2023"
+    },
+    {
+      "title": "YouTube for E-Commerce",
+      "img": "5.jpg",
+      "category": {
+        "en": "Marketing and Promotion",
+        "ar": "التسويق"
+      },
+      "date": "22 Feb 2023"
+    },
+    {
+      "title": "Get more with our 10th Anniversary sale guide!",
+      "img": "6.jpg",
+      "category": {
+        "en": "On Trend",
+        "ar": "القمة"
+      },
+      "date": "24 Feb 2023"
+    },
+    {
+      "title": "Stay fashionably chill",
+      "img": "7.jpg",
+      "category": {
+        "en": "Style",
+        "ar": "الإستايل"
+      },
+      "date": "27 Feb 2023"
+    },
+    {
+      "title": "must-buy travel items for new parents",
+      "img": "8.jpg",
+      "category": {
+        "en": "Home",
+        "ar": "الرئيسية"
+      },
+      "date": "18 Feb 2023"
+    },
+    {
+      "title": "smart home devices for a cooler, more intelligent living space",
+      "img": "9.jpg",
+      "category": {
+        "en": "Family",
+        "ar": "العائلة"
+      },
+      "date": "02 Feb 2023"
+    }
+  ],
+  "All": [
+    {
+      "title": "Shirts Every Man Needs in His Wardrobe",
+      "description": "Fashion is for men just as much as it is for women. And whoever says that men can get away with just about any shirt with jeans – ah,they couldnt be more wrong!",
+      "img": "1.jpg",
+      "category": {
+        "en": "Men Fashions",
+        "ar": "موضة الرجال"
+      },
+      "created_at": "19 Feb 2023"
+    },
+    {
+      "title": "Effective Self Defense Tips for Women",
+      "description": "The world is not a safe place, especially for our women. Everyday, women from all around the world have to go through unimaginable situations",
+      "img": "2.png",
+      "category": {
+        "en": "Life Hacks",
+        "ar": "الحياة"
+      },
+      "created_at": "20 Feb 2023"
+    },
+    {
+      "title": "What’s Trending This Winter Season?",
+      "description": "Winter is THE season for fashion. We think it’s the winter fashion is one of the most stylish and attractive one. It’s got a rather cosy but fancy touch to it that we simply love.",
+      "img": "3.jpg",
+      "category": {
+        "en": "Fashion",
+        "ar": "الموضة"
+      },
+      "created_at": "25 Feb 2023"
+    },
+    {
+      "title": "How to Start an Online Store",
+      "description": "In this article, well take all the guesswork out of starting your own business. We’ll also provide you with all the tips and information",
+      "img": "4.jpg",
+      "category": {
+        "en": "Online Sell",
+        "ar": "الشراء الإلكترونى"
+      },
+      "created_at": "21 Feb 2023"
+    },
+    {
+      "title": "YouTube for E-Commerce",
+      "description": "YouTube is an excellent platform for promoting your e-commerce business, but many stores haven’t capitalized on what it has to offer.",
+      "img": "5.jpg",
+      "category": {
+        "en": "Marketing and Promotion",
+        "ar": "التسويق"
+      },
+      "created_at": "22 Feb 2023"
+    },
+    {
+      "title": "Get more with our 10th Anniversary sale guide!",
+      "description": "Celebrate our birthday with deals over 50% off, money-saving games, and a trip down memory lane to relive your journey",
+      "img": "6.jpg",
+      "category": {
+        "en": "On Trend",
+        "ar": "القمة"
+      },
+      "created_at": "24 Feb 2023"
+    },
+    {
+      "title": "Stay fashionably chill",
+      "description": "Summer is over and Milan Fashion Week is just around the corner. It’s time to check out what your favorite influencers are wearing on the runway and out on the streets.",
+      "img": "7.jpg",
+      "category": {
+        "en": "Style",
+        "ar": "الإستايل"
+      },
+      "created_at": "27 Feb 2023"
+    },
+    {
+      "title": "must-buy travel items for new parents",
+      "description": "Whether it's a day outing or a long family holiday, ample preparation always pays off.Besides doing ample research on the transportation",
+      "img": "8.jpg",
+      "category": {
+        "en": "Home",
+        "ar": "الرئيسية"
+      },
+      "created_at": "18 Feb 2023"
+    },
+    {
+      "title": "smart home devices for a cooler, more intelligent living space",
+      "description": "Celebrate our birthday with deals over 50% off, money-saving games, and a trip down memory lane to relive your journey.",
+      "img": "9.jpg",
+      "category": {
+        "en": "Family",
+        "ar": "العائلة"
+      },
+      "created_at": "02 Feb 2023"
+    }
+  ]
+}

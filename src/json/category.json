@@ -70,5 +70,51 @@
       },
       "image": "/imgs/categories/10.jpg"
     }
+  ],
+  "Blogs": [
+    {
+      "en": "Family",
+      "ar": "العائلة"
+    },
+    {
+      "en": "Home",
+      "ar": "الرئيسية"
+    },
+    {
+      "en": "Tech",
+      "ar": "التكنولوجيا"
+    },
+    {
+      "en": "Style",
+      "ar": "الإستايل"
+    },
+    {
+      "en": "On Trend",
+      "ar": "القمة"
+    },
+    {
+      "en": "Marketing and Promotion",
+      "ar": "التسويق"
+    },
+    {
+      "en": "Online Sell",
+      "ar": "الشراء الإلكترونى"
+    },
+    {
+      "en": "Fashion",
+      "ar": "الموضة"
+    },
+    {
+      "en": "Life Hacks",
+      "ar": "الحياة"
+    },
+    {
+      "en": "Men Fashions",
+      "ar": "موضة الرجال"
+    },
+    {
+      "en": "News",
+      "ar": "الجديد"
+    }
   ]
 }

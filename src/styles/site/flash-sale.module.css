@@ -1,0 +1,173 @@
+.flashCountContainer > section > div {
+  background-image: conic-gradient(red 45deg, white 0);
+  height: 60px;
+  width: 60px;
+  position: relative;
+  z-index: -1;
+}
+
+.flashCountContainer > section > div::before {
+  content: "";
+  position: absolute;
+  height: 55px;
+  width: 55px;
+  z-index: -1;
+  background: white;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+}
+
+/* @keyframes rotate {
+  2% {
+    background-image: conic-gradient(red 7.2deg, white 0);
+  }
+  4% {
+    background-image: conic-gradient(red 14.4deg, white 0);
+  }
+  6% {
+    background-image: conic-gradient(red 21.6deg, white 0);
+  }
+  8% {
+    background-image: conic-gradient(red 28.8deg, white 0);
+  }
+  10% {
+    background-image: conic-gradient(red 36deg, white 0);
+  }
+  12% {
+    background-image: conic-gradient(red 43.2deg, white 0);
+  }
+  14% {
+    background-image: conic-gradient(red 50.4deg, white 0);
+  }
+  16% {
+    background-image: conic-gradient(red 57.6deg, white 0);
+  }
+  18% {
+    background-image: conic-gradient(red 64.8deg, white 0);
+  }
+  20% {
+    background-image: conic-gradient(red 72deg, white 0);
+  }
+  22% {
+    background-image: conic-gradient(red 79.2deg, white 0);
+  }
+  24% {
+    background-image: conic-gradient(red 86.4deg, white 0);
+  }
+  26% {
+    background-image: conic-gradient(red 93.6deg, white 0);
+  }
+  28% {
+    background-image: conic-gradient(red 100.8deg, white 0);
+  }
+  30% {
+    background-image: conic-gradient(red 108deg, white 0);
+  }
+  32% {
+    background-image: conic-gradient(red 115.2deg, white 0);
+  }
+  34% {
+    background-image: conic-gradient(red 122.4deg, white 0);
+  }
+  36% {
+    background-image: conic-gradient(red 360deg, white 0);
+  }
+  38% {
+    background-image: conic-gradient(red 129.6deg, white 0);
+  }
+  40% {
+    background-image: conic-gradient(red 136.8deg, white 0);
+  }
+  42% {
+    background-image: conic-gradient(red 144deg, white 0);
+  }
+  44% {
+    background-image: conic-gradient(red 151.2deg, white 0);
+  }
+  46% {
+    background-image: conic-gradient(red 158.4deg, white 0);
+  }
+  48% {
+    background-image: conic-gradient(red 165.6deg, white 0);
+  }
+  50% {
+    background-image: conic-gradient(red 172.8deg, white 0);
+  }
+  52% {
+    background-image: conic-gradient(red 360deg, white 0);
+  }
+  54% {
+    background-image: conic-gradient(red 360deg, white 0);
+  }
+  56% {
+    background-image: conic-gradient(red 360deg, white 0);
+  }
+  58% {
+    background-image: conic-gradient(red 360deg, white 0);
+  }
+  60% {
+    background-image: conic-gradient(red 360deg, white 0);
+  }
+  62% {
+    background-image: conic-gradient(red 360deg, white 0);
+  }
+  64% {
+    background-image: conic-gradient(red 360deg, white 0);
+  }
+  66% {
+    background-image: conic-gradient(red 360deg, white 0);
+  }
+  68% {
+    background-image: conic-gradient(red 360deg, white 0);
+  }
+  70% {
+    background-image: conic-gradient(red 360deg, white 0);
+  }
+  72% {
+    background-image: conic-gradient(red 360deg, white 0);
+  }
+  74% {
+    background-image: conic-gradient(red 360deg, white 0);
+  }
+  76% {
+    background-image: conic-gradient(red 360deg, white 0);
+  }
+  78% {
+    background-image: conic-gradient(red 360deg, white 0);
+  }
+  80% {
+    background-image: conic-gradient(red 360deg, white 0);
+  }
+  82% {
+    background-image: conic-gradient(red 360deg, white 0);
+  }
+  84% {
+    background-image: conic-gradient(red 360deg, white 0);
+  }
+  86% {
+    background-image: conic-gradient(red 360deg, white 0);
+  }
+  88% {
+    background-image: conic-gradient(red 360deg, white 0);
+  }
+  90% {
+    background-image: conic-gradient(red 360deg, white 0);
+  }
+  92% {
+    background-image: conic-gradient(red 360deg, white 0);
+  }
+  94% {
+    background-image: conic-gradient(red 360deg, white 0);
+  }
+  96% {
+    background-image: conic-gradient(red 360deg, white 0);
+  }
+  98% {
+    background-image: conic-gradient(red 360deg, white 0);
+  }
+  100% {
+    background-image: conic-gradient(red 0deg, white 0);
+  }
+} */

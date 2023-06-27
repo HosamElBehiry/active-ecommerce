@@ -7,15 +7,15 @@ export const Links: Options = [
     title: "Home",
   },
   {
-    link: "#",
+    link: "/flash-sale",
     title: "Flash Sale",
   },
   {
-    link: "#",
+    link: "/blogs",
     title: "Blogs",
   },
   {
-    link: "#",
+    link: "/brands",
     title: "All Brands",
   },
   {
@@ -31,7 +31,7 @@ export const Links: Options = [
     title: "Coupons",
   },
   {
-    link: "#",
+    link: "/today-deals",
     title: "Today's Deal",
   },
 ];
