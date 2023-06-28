@@ -11,7 +11,7 @@ import {
 function Aside() {
   const { t } = useTranslation("user");
   return (
-    <aside className="border p-3 rounded-md col-span-4 lg:hidden">
+    <aside className="border p-3 rounded-md col-span-4 lg:hidden h-fit">
       <div className="py-4 flex flex-col items-center justify-between border-b">
         <Image
           src="/imgs/user/1.png"

@@ -14,7 +14,7 @@ function Footer() {
           <div className="text-white">
             <Image
               src="/imgs/active-ecommerce-logo.png"
-              className="h-auto w-auto"
+              className="h-10 w-64"
               height={1000}
               width={1000}
               alt="Footer Logo"

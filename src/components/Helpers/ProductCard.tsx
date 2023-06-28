@@ -6,36 +6,47 @@ import { ProductCardProps } from "@/interfaces/Product.interface";
 import { AiFillHeart, AiOutlineShoppingCart } from "react-icons/ai";
 import { MdCompareArrows } from "react-icons/md";
 
-const ProductCard = ({ i }: ProductCardProps) => {
+const ProductCard = (props: ProductCardProps) => {
   const { t, lang } = useTranslation("common");
   return (
     <section className={Styles.productContainer}>
       <div className="border p-4 hover:border-red-600 relative">
-        <div className="absolute top-5 -right-7 invisible">
-          <div className="mb-2 bg-white shadow-md p-2 hover:bg-red-600 hover:text-white text-zinc-400">
-            <AiFillHeart size="1.2rem" />
-          </div>
+        <div className="absolute top-5 -right-0 invisible">
+          {!props.isWishList ? (
+            <div className="mb-2 bg-white shadow-md p-2 hover:bg-red-600 hover:text-white text-zinc-400">
+              <AiFillHeart size="1.2rem" />
+            </div>
+          ) : (
+            <div className="mb-2 bg-white shadow-md p-2 text-red-600">
+              <AiFillHeart size="1.2rem" />
+            </div>
+          )}
           <div className="bg-white shadow-md p-2 hover:bg-red-600 hover:text-white text-zinc-400">
             <MdCompareArrows size="1.2rem" />
           </div>
         </div>
-        <span className="bg-red-600 rounded-sm text-sm text-white px-2">
-          {lang === "ar" && <span>%</span>}
-          <span>{NumberFormat[lang].format(20)}</span>
-          {lang === "en" && <span>%</span>}
-        </span>
+        <div
+          className={`flex ${lang === "ar" ? "justify-end" : "justify-start"}`}
+        >
+          <span className="bg-red-600 rounded-sm text-sm text-white px-2">
+            {lang === "ar" && <span>%</span>}
+            <span>{NumberFormat[lang].format(20)}</span>
+            {lang === "en" && <span>%</span>}
+          </span>
+        </div>
         <div className="h-[200px] w-full">
           <Image
-            src={`/imgs/featured-products/${i}.${
-              i === 6 ||
-              i === 14 ||
-              i === 20 ||
-              i === 22 ||
-              i === 25 ||
-              i === 26
+            src={`/imgs/featured-products/${props.i}.${
+              props.i === 6 ||
+              props.i === 14 ||
+              props.i === 20 ||
+              props.i === 22 ||
+              props.i === 25 ||
+              props.i === 26
                 ? "jpg"
                 : "png"
             }`}
+            priority
             className="object-fill h-full"
             height={1000}
             width={1000}
