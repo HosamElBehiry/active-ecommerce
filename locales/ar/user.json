@@ -1,0 +1,20 @@
+{
+  "Dashboard": "لوحة القيادة",
+  "PurchaseHistory": "تاريخ الشراء",
+  "ManageAccount": "التحكم فى الحساب",
+  "DelMyAccount": "إزالة الحساب",
+  "LogOut": "تسجيل الخروج",
+  "WalletBalance": "رصيد المحفظة",
+  "EGP": "جنية",
+  "LastRecharge": "أخر ميعاد شحن",
+  "RechargeWallet": "أعادة شحن المحفظة",
+  "TotalExpenditure": "محموع المصروفات",
+  "ViewOrderHistory": "عرض الطلبات",
+  "TotalClubPoints": "مجموع النقاط",
+  "ConvertClubPoints": "تخويل النقاط",
+  "ProdInCart": "منتج فى العربة",
+  "ProdWishList": "منتنج فى الأمنيات",
+  "TotalOrders": "عدد الطلبات",
+  "DefShipping": "عنوان الشحن",
+  "AddNewAddress": "إضافة عنوان جديد"
+}

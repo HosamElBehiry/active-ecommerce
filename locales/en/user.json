@@ -1,0 +1,20 @@
+{
+  "Dashboard": "Dashboard",
+  "PurchaseHistory": "Purchase History",
+  "ManageAccount": "Manage Account",
+  "DelMyAccount": "Delete My Account",
+  "LogOut": "Sign Out",
+  "WalletBalance": "Wallet Balance",
+  "EGP": "EGP",
+  "LastRecharge": "Last Recharge",
+  "RechargeWallet": "Recharge Wallet",
+  "TotalExpenditure": "Total Expenditure",
+  "ViewOrderHistory": "View Order History",
+  "TotalClubPoints": "Total Club Points",
+  "ConvertClubPoints": "Convert Club Points",
+  "ProdInCart": "Products In Cart",
+  "ProdWishList": "Product In Wishlist",
+  "TotalOrders": "Total Orders",
+  "DefShipping": "Default Shipping",
+  "AddNewAddress": "Add New Address"
+}
