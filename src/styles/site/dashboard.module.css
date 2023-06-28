@@ -1,0 +1,5 @@
+.dashboardContainer {
+  background-image: url("/imgs/user/dashboard-bg.png");
+  background-size: cover;
+  height: 300px;
+}
