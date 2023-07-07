@@ -17,5 +17,13 @@
   "TotalOrders": "Total Orders",
   "DefShipping": "Default Shipping",
   "AddNewAddress": "Add New Address",
-  "WishLists": "Wish Lists"
+  "WishLists": "Wish Lists",
+  "CompareProducts": "Compare Products",
+  "ResetCompareList": "Reset Compare List",
+  "Name": "Name",
+  "Image": "Image",
+  "Price": "Price",
+  "Category": "Category",
+  "Brand": "Brand",
+  "AddToCart": "Add To Cart"
 }

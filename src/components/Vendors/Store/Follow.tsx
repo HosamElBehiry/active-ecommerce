@@ -1,6 +1,6 @@
+import { AiOutlinePlus, AiOutlineCheck } from "react-icons/ai";
 import useTranslation from "next-translate/useTranslation";
 import { useState } from "react";
-import { AiOutlinePlus, AiOutlineCheck } from "react-icons/ai";
 
 function Follow() {
   const { t, lang } = useTranslation("vendors");

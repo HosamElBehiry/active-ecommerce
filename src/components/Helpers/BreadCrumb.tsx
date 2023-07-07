@@ -12,11 +12,7 @@ function BreadCrumb(props: BreadCrumbProps) {
           {t("Home")}
         </Link>
         <span className="mx-2"> / </span>
-        <span>
-          {`"`}
-          {props.current}
-          {`"`}
-        </span>
+        <q>{props.current}</q>
       </div>
     </div>
   );

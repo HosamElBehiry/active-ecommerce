@@ -45,10 +45,10 @@ function Header(props: Actions) {
         />
       </div>
       <div className="flex items-center md:hidden">
-        <Link href="#">
+        <Link href="/user/compare">
           <MdOutlineCompareArrows size="1.5rem" />
         </Link>
-        <Link href="#" className="mx-5">
+        <Link href="/user/wishlist" className="mx-5">
           <AiFillHeart size="1.5rem" />
         </Link>
         <Link href="#" className="lg:hidden">

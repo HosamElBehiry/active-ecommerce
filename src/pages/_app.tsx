@@ -6,6 +6,7 @@ import Layout from "@/components/Helpers/Layout";
 import useTranslation from "next-translate/useTranslation";
 import { useEffect } from "react";
 import type { AppProps } from "next/app";
+
 const font = Cairo({ weight: ["400", "300"], subsets: ["latin"] });
 
 export default function App({ Component, pageProps }: AppProps) {
