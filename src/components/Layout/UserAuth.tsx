@@ -9,10 +9,12 @@ function UserAuth({ media, padding, size }: Layout) {
     <div
       className={`flex items-center text-[13px] hover:text-red-600 ${media}`}
     >
-      <AiOutlineUser
-        size={size}
-        className={`border rounded-full hover:shadow-md ${padding}`}
-      />
+      <Link href="/user/dashboard">
+        <AiOutlineUser
+          size={size}
+          className={`border rounded-full hover:shadow-md ${padding}`}
+        />
+      </Link>
       <Link
         href="/auth/login"
         className={`text-zinc-500 hover:text-red-600 px-4 ${

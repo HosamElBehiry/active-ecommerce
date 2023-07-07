@@ -17,5 +17,13 @@
   "TotalOrders": "عدد الطلبات",
   "DefShipping": "عنوان الشحن",
   "AddNewAddress": "إضافة عنوان جديد",
-  "WishLists": "قائمة الأمنيات"
+  "WishLists": "قائمة الأمنيات",
+  "CompareProducts": "مقارنة المنتجات",
+  "ResetCompareList": "إعادة تعيين المقارنات",
+  "Name": "الإسم",
+  "Image": "الصوره",
+  "Price": "السعر",
+  "Category": "القسم",
+  "Brand": "العلامة التحارية",
+  "AddToCart": "أضف إلى العربة"
 }

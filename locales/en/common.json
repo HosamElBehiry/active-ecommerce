@@ -31,5 +31,7 @@
     "Subscribe": "Subscribe",
     "FollowUs": "Follow Us",
     "MobileApps": "Mobile Apps",
-    "EmailAddress": "Youe Email Address"
+    "EmailAddress": "Youe Email Address",
+    "SomeThingWentWrong": "Some Thing Went Wrong",
+    "Error": "Sorry for the inconvenience, but we're working on it."
 }

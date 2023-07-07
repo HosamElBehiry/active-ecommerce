@@ -19,7 +19,7 @@ export const Links: Options = [
     title: "All Brands",
   },
   {
-    link: "#",
+    link: "/category",
     title: "All Categories",
   },
   {
