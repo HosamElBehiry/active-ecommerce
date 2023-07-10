@@ -34,7 +34,7 @@ const ProductCard = (props: ProductCardProps) => {
             {lang === "en" && <span>%</span>}
           </span>
         </div>
-        <div className="h-[200px] w-full">
+        <div className="h-[200px] w-full max-w-[300px] mx-auto">
           <Image
             src={`/imgs/featured-products/${props.i}.${
               props.i === 6 ||
