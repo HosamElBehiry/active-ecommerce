@@ -17,7 +17,7 @@ function FeaturedCategories() {
           {t("FeaturedCategories")}
         </span>
         <Link
-          href="#"
+          href="/category"
           className="flex items-center text-blue-500 font-semibold text-xs my-1"
         >
           {t("ViewAll")}

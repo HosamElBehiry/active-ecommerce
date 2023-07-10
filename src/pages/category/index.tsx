@@ -1,6 +1,7 @@
 import { MdOutlineKeyboardArrowDown } from "react-icons/md";
 import BreadCrumb from "@/components/Helpers/BreadCrumb";
 import Image from "next/image";
+import Link from "next/link";
 
 function Index() {
   return (
@@ -17,8 +18,8 @@ function Index() {
               width={1000}
               alt=""
             />
-            <h2 className="mx-2 font-semibold text-lg">
-              Women Clothing & Fashion
+            <h2 className="mx-2 font-semibold text-lg hover:text-red-600">
+              <Link href={`/category/${idx}`}>Women Clothing & Fashion</Link>
             </h2>
           </div>
           <div className="grid grid-cols-5 lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 xs:grid-cols-1 gap-5">
