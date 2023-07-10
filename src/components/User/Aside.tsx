@@ -33,7 +33,7 @@ function Aside() {
         >
           <button
             onClick={() => push("/user/dashboard")}
-            className="flex items-center w-1/2 mx-auto"
+            className="whitespace-nowrap flex items-center w-1/2 mx-auto"
           >
             <AiOutlineHome size="1.3rem" />
             <span className="mx-2 font-semibold">{t("Dashboard")}</span>
@@ -41,12 +41,12 @@ function Aside() {
         </li>
         <li
           className={`hover:bg-rose-50 ${
-            pathname === "" && "bg-rose-50"
+            pathname === "/user/purchased-history" && "bg-rose-50"
           } text-zinc-700 py-2 rounded-full mb-2`}
         >
           <button
-            onClick={() => push("")}
-            className="flex items-center w-1/2 mx-auto"
+            onClick={() => push("/user/purchased-history")}
+            className="whitespace-nowrap flex items-center w-1/2 mx-auto"
           >
             <AiOutlineProfile size="1.3rem" />
             <span className="mx-2 font-semibold">{t("PurchaseHistory")}</span>
@@ -59,7 +59,7 @@ function Aside() {
         >
           <button
             onClick={() => push("/user/wishlist")}
-            className="flex items-center w-1/2 mx-auto"
+            className="whitespace-nowrap flex items-center w-1/2 mx-auto"
           >
             <AiFillHeart size="1.3rem" />
             <span className="mx-2 font-semibold">{t("WishLists")}</span>
@@ -72,7 +72,7 @@ function Aside() {
         >
           <button
             onClick={() => push("")}
-            className="flex items-center w-1/2 mx-auto"
+            className="whitespace-nowrap flex items-center w-1/2 mx-auto"
           >
             <AiOutlineUser size="1.3rem" />
             <span className="mx-2 font-semibold">{t("ManageAccount")}</span>
@@ -85,7 +85,7 @@ function Aside() {
         >
           <button
             onClick={() => push("")}
-            className="flex items-center w-1/2 mx-auto"
+            className="whitespace-nowrap flex items-center w-1/2 mx-auto"
           >
             <AiOutlineMinusCircle size="1.3rem" />
             <span className="mx-2 font-semibold">{t("DelMyAccount")}</span>
