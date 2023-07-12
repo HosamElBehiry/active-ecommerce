@@ -67,11 +67,11 @@ function Aside() {
         </li>
         <li
           className={`hover:bg-rose-50 ${
-            pathname === "" && "bg-rose-50"
+            pathname === "/user/profile" && "bg-rose-50"
           } text-zinc-700 py-2 rounded-full mb-2`}
         >
           <button
-            onClick={() => push("")}
+            onClick={() => push("/user/profile")}
             className="whitespace-nowrap flex items-center w-1/2 mx-auto"
           >
             <AiOutlineUser size="1.3rem" />

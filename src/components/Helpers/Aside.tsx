@@ -7,7 +7,7 @@ function Aside() {
   const [catActive, setCatActive] = useState(true);
   const [colorActive, setColorActive] = useState(true);
   return (
-    <aside className="col-span-3">
+    <aside className="col-span-3 lg:hidden">
       <div className="border rounded-sm mb-4">
         <h2
           className="flex items-center justify-between p-2 cursor-pointer"
