@@ -2,6 +2,7 @@ import Image from "next/image";
 import NumberFormat from "@/constants/Fotmatter";
 import Styles from "@/styles/site/product-card.module.css";
 import useTranslation from "next-translate/useTranslation";
+import { memo } from "react";
 import { ProductCardProps } from "@/interfaces/Product.interface";
 import { AiFillHeart, AiOutlineShoppingCart } from "react-icons/ai";
 import { MdCompareArrows } from "react-icons/md";
@@ -71,4 +72,4 @@ const ProductCard = (props: ProductCardProps) => {
   );
 };
 
-export default ProductCard;
+export default memo(ProductCard);
