@@ -3,6 +3,7 @@ import {
   AiOutlineShoppingCart,
   AiOutlineUser,
 } from "react-icons/ai";
+import Link from "next/link";
 import { BiCategory } from "react-icons/bi";
 import { IoNotificationsOutline } from "react-icons/io5";
 import useTranslation from "next-translate/useTranslation";
@@ -12,13 +13,23 @@ function BottomMenu() {
   return (
     <div className="hidden lg:block text-zinc-700 fixed z-10 bottom-4 xs:bottom-0 left-1/2 xs:left-0 xs:w-full -translate-x-1/2 xs:translate-x-0 bg-white shadow-xl rounded-full xs:rounded-none p-2 border">
       <ul className="flex items-center justify-between xs:m-0 xs:p-0 xs:text-xs">
-        <li className="px-4 xs:px-0 flex flex-col items-center whitespace-nowrap">
-          <AiOutlineHome size="1.3rem" />
-          <span className="mt-1">{t("Home")}</span>
+        <li className="px-4 xs:px-0">
+          <Link
+            href="/"
+            className="flex flex-col items-center whitespace-nowrap"
+          >
+            <AiOutlineHome size="1.3rem" />
+            <span className="mt-1">{t("Home")}</span>
+          </Link>
         </li>
-        <li className="px-4 xs:px-0 flex flex-col items-center whitespace-nowrap">
-          <BiCategory size="1.3rem" />
-          <span className="mt-1">{t("Categories")}</span>
+        <li className="px-4 xs:px-0">
+          <Link
+            href="/category"
+            className="flex flex-col items-center whitespace-nowrap"
+          >
+            <BiCategory size="1.3rem" />
+            <span className="mt-1">{t("Categories")}</span>
+          </Link>
         </li>
         <li className="px-4 xs:px-0 flex flex-col items-center whitespace-nowrap">
           <AiOutlineShoppingCart size="1.3rem" />
@@ -28,9 +39,14 @@ function BottomMenu() {
           <IoNotificationsOutline size="1.3rem" />
           <span className="mt-1">{t("Notifications")}</span>
         </li>
-        <li className="px-4 xs:px-0 flex flex-col items-center whitespace-nowrap">
-          <AiOutlineUser size="1.3rem" />
-          <span className="mt-1">{t("MyAccount")}</span>
+        <li className="px-4 xs:px-0">
+          <Link
+            href="/user/dashboard"
+            className="flex flex-col items-center whitespace-nowrap"
+          >
+            <AiOutlineUser size="1.3rem" />
+            <span className="mt-1">{t("MyAccount")}</span>
+          </Link>
         </li>
       </ul>
     </div>
