@@ -1,14 +1,14 @@
 import FeaturedProducts from "@/components/Home/FeaturedProducts";
-import { VendorProps } from "@/interfaces/Vendors.interface";
+import { StoreProps } from "@/interfaces/Vendors.interface";
 import { GetServerSideProps } from "next";
 import Data from "@/json/vendors.json";
 import List from "@/components/Vendors/Store/List";
 import Logo from "@/components/Vendors/Store/Logo";
 import Follow from "@/components/Vendors/Store/Follow";
 
-function Store(props: VendorProps) {
+function Store(props: StoreProps) {
   return (
-    <section className="">
+    <section>
       <List />
       <div className="border-t border-b">
         <div className="w-5/6 xs:w-11/12 mx-auto py-5">
