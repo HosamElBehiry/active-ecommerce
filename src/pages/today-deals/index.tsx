@@ -8,8 +8,7 @@ const Index = () => {
         <Image
           src="/imgs/ads/1.png"
           className="h-auto w-full object-cover transition-all cursor-pointer hover:scale-105 duration-500"
-          loading="lazy"
-          quality={100}
+          priority
           height={1000}
           width={1000}
           alt=""

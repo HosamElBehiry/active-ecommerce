@@ -6,7 +6,11 @@ module.exports = {
     './src/app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        'light-black': 'rgba(0, 0, 0, 0.6)'
+      }
+    },
     screens: {
       'lg': { max: '1200px' },
       'md': { max: '991px' },

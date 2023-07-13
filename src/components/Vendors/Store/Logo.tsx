@@ -1,9 +1,9 @@
-import { VendorProps } from "@/interfaces/Vendors.interface";
+import { StoreProps } from "@/interfaces/Vendors.interface";
 import { AiFillStar } from "react-icons/ai";
 import useTranslation from "next-translate/useTranslation";
 import Image from "next/image";
 
-function Logo(props: VendorProps) {
+function Logo(props: StoreProps) {
   const { t } = useTranslation("vendors");
   return (
     <div className="flex items-center 2xs:block">

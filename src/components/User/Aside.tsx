@@ -8,6 +8,7 @@ import {
   AiOutlineProfile,
   AiOutlineUser,
 } from "react-icons/ai";
+import { IoStorefrontOutline } from "react-icons/io5";
 
 function Aside() {
   const { t } = useTranslation("user");
@@ -76,6 +77,19 @@ function Aside() {
           >
             <AiOutlineUser size="1.3rem" />
             <span className="mx-2 font-semibold">{t("ManageAccount")}</span>
+          </button>
+        </li>
+        <li
+          className={`hover:bg-rose-50 ${
+            pathname === "/user/fav-sellers" && "bg-rose-50"
+          } text-zinc-700 py-2 rounded-full mb-2`}
+        >
+          <button
+            onClick={() => push("/user/fav-sellers")}
+            className="whitespace-nowrap flex items-center w-1/2 mx-auto"
+          >
+            <IoStorefrontOutline size="1.3rem" />
+            <span className="mx-2 font-semibold">{t("FollowedSellers")}</span>
           </button>
         </li>
         <li
