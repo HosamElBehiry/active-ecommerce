@@ -34,6 +34,7 @@ function CategorySlider() {
             <div className={Styles.imgContainer}>
               <Image
                 src={s}
+                priority
                 className="object-fill"
                 width={1000}
                 height={1000}
