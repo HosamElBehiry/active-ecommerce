@@ -26,6 +26,7 @@ function FlashSale() {
           <Image
             src="/imgs/flash-sale/3_.png"
             className="object-fill"
+            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
             fill
             alt=""
           />
