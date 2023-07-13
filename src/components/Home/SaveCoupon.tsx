@@ -11,6 +11,8 @@ function SaveCoupon() {
             <Image
               height={1000}
               width={1000}
+              sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+              priority
               src="/svg/coupon.svg"
               className="object-fill h-auto w-auto md:mx-auto"
               alt=""

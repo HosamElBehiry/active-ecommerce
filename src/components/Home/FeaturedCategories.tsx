@@ -46,6 +46,8 @@ function FeaturedCategories() {
                     i === 3 ? "jpg" : "png"
                   }`}
                   className="h-[120px] w-[150px] mx-auto object-fill"
+                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                  priority
                   height={1000}
                   width={1000}
                   alt=""

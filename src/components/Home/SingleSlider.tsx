@@ -6,6 +6,8 @@ function SingleSlider() {
       <Image
         src="/imgs/single-slider/1.png"
         className="h-[300px] w-full object-fill hover:scale-105 transition-all duration-700"
+        sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+        priority
         height={1000}
         width={1000}
         alt=""
