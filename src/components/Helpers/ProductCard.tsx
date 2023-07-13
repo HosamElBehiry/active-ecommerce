@@ -49,6 +49,7 @@ const ProductCard = (props: ProductCardProps) => {
             }`}
             priority
             className="object-fill h-full"
+            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
             height={1000}
             width={1000}
             alt=""

@@ -17,6 +17,8 @@ function TodayDeal() {
       <Image
         src="/imgs/ads/1.png"
         className="h-[150px] w-full object-fill"
+        sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+        priority
         width={1000}
         height={1000}
         alt=""
@@ -48,6 +50,8 @@ function TodayDeal() {
                 <Image
                   src={`/imgs/ads/${i + 1}.${!i ? "jpg" : "png"}`}
                   className="h-full w-full xs:h-[80px] xs:w-[80px] xs:mx-auto rounded-full"
+                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                  priority
                   width={1000}
                   height={1000}
                   alt=""
