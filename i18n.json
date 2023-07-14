@@ -24,6 +24,9 @@
     "/today-deals": [
       "home"
     ],
+    "/product/[id]": [
+      "product"
+    ],
     "rgx:^/user/*": [
       "user",
       "vendors"
