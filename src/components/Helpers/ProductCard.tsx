@@ -6,6 +6,7 @@ import { memo } from "react";
 import { ProductCardProps } from "@/interfaces/Product.interface";
 import { AiFillHeart, AiOutlineShoppingCart } from "react-icons/ai";
 import { MdCompareArrows } from "react-icons/md";
+import Link from "next/link";
 
 const ProductCard = (props: ProductCardProps) => {
   const { t, lang } = useTranslation("common");
@@ -36,22 +37,24 @@ const ProductCard = (props: ProductCardProps) => {
           </span>
         </div>
         <div className="h-[200px] w-full max-w-[300px] mx-auto">
-          <Image
-            src={`/imgs/featured-products/${props.i}.${
-              props.i === 6 ||
-              props.i === 14 ||
-              props.i === 20 ||
-              props.i === 22 ||
-              props.i === 25 ||
-              props.i === 26
-                ? "jpg"
-                : "png"
-            }`}
-            className="object-fill h-full"
-            height={1000}
-            width={1000}
-            alt=""
-          />
+          <Link href={`/product/${props.i}`}>
+            <Image
+              src={`/imgs/featured-products/${props.i}.${
+                props.i === 6 ||
+                props.i === 14 ||
+                props.i === 20 ||
+                props.i === 22 ||
+                props.i === 25 ||
+                props.i === 26
+                  ? "jpg"
+                  : "png"
+              }`}
+              className="object-fill h-full"
+              height={1000}
+              width={1000}
+              alt=""
+            />
+          </Link>
         </div>
         <div className="bg-white rounded-sm text-white p-2 invisible flex items-center justify-center">
           <AiOutlineShoppingCart size="1.4rem" />
