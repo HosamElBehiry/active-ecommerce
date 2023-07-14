@@ -8,7 +8,7 @@ function Detail() {
   return (
     <div className="border-b pb-3">
       <h3 className="font-semibold text-lg">
-        Men's Machine Stainless Steel Quartz Chronograph Watch
+        Mens Machine Stainless Steel Quartz Chronograph Watch
       </h3>
       <div className="flex items-center my-4">
         {[1, 2, 3, 4, 5].map((i) => (
