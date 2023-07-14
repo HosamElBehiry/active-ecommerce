@@ -8,7 +8,7 @@ function Index() {
         <Aside />
         <div className="col-span-9 lg:col-span-12">
           <div className="grid grid-cols-3 lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 xs:grid-cols-1 gap-3">
-            {[1, 2, 3, 4, 5, 6, 7, 8].map((i) => (
+            {[21, 22, 23, 24, 25, 26].map((i) => (
               <ProductCard key={i} i={i} />
             ))}
           </div>
