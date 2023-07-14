@@ -63,7 +63,6 @@ function AuctionProducts() {
                   <Image
                     src={`/imgs/auction-products/${i}.jpg`}
                     className="h-[130px] w-[130px] lg:h-[200px] lg:w-[200px] md:h-[130px] object-fill mx-3"
-                    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                     height={1000}
                     width={1000}
                     alt=""

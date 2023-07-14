@@ -29,8 +29,6 @@ function Slider(props: Interafce.Slider) {
             <Image
               src={`/imgs/ads/${img}.png`}
               className="h-full object-fill hover:scale-105 transition-all duration-700"
-              sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-              priority
               width={1000}
               height={1000}
               alt=""

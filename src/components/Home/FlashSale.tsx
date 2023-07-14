@@ -56,8 +56,6 @@ function FlashSale() {
                 <div className={Styles.flashImgContainer}>
                   <Image
                     src={`/imgs/flash-sale/products/${i}.png`}
-                    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-                    priority
                     height={1000}
                     width={1000}
                     alt=""
