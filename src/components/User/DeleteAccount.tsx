@@ -26,7 +26,7 @@ function DeleteAccount(props: UserProps) {
         <div className="border-b mb-6">
           <div className="p-6">
             <p className="text-rose-600 font-semibold text-sm">
-              Note: Don't Click to any button or don't do any action during
+              Note: Donot Click to any button or don't do any action during
               account Deletion, it may takes some times.
             </p>
             <h3 className="text-zinc-500 font-semibold my-2">
