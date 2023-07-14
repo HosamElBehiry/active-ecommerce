@@ -95,7 +95,7 @@ function Aside() {
         </h2>
         <ul className={active.size ? "p-2" : "hidden"}>
           {[1, 2, 3, 4, 5].map((i) => (
-            <li className="flex items-center mb-2">
+            <li key={i} className="flex items-center mb-2">
               <input type="checkbox" id={String(i + 1)} />{" "}
               <label className="mx-2 cursor-pointer" htmlFor={String(i + 1)}>
                 Size {i}
@@ -119,7 +119,7 @@ function Aside() {
         </h2>
         <ul className={active.febric ? "p-2" : "hidden"}>
           {[6, 7, 8, 9, 10].map((i) => (
-            <li className="flex items-center mb-2">
+            <li key={i} className="flex items-center mb-2">
               <input type="checkbox" id={String(i + 1)} />{" "}
               <label className="mx-2 cursor-pointer" htmlFor={String(i + 1)}>
                 Febric {i}
@@ -143,7 +143,7 @@ function Aside() {
         </h2>
         <ul className={active.sleeve ? "p-2" : "hidden"}>
           {[11, 12, 13, 14, 15].map((i) => (
-            <li className="flex items-center mb-2">
+            <li key={i} className="flex items-center mb-2">
               <input type="checkbox" id={String(i + 1)} />{" "}
               <label className="mx-2 cursor-pointer" htmlFor={String(i + 1)}>
                 Sleeve {i}
