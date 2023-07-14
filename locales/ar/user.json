@@ -49,5 +49,6 @@
   "ConversationDescription": "حدد محادثة لعرض جميع الرسائل",
   "ConversationWith": "محادثة مع ",
   "WriteMessage": "أكتب رسالة",
-  "SendMessage": "إرسال"
+  "SendMessage": "إرسال",
+  "AllNotifications": "جميع الإشعارات"
 }

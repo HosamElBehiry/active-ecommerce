@@ -49,5 +49,6 @@
   "ConversationDescription": "Select a conversation to view all messages",
   "ConversationWith": "Conversation with",
   "WriteMessage": "Write Your Message",
-  "SendMessage": "Send Message"
+  "SendMessage": "Send Message",
+  "AllNotifications": "All Notifications"
 }
