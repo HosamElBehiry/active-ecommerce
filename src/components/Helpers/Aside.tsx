@@ -7,7 +7,7 @@ import { useRanger } from "react-ranger";
 
 function Aside() {
   const [active, setActive] = useState(AsideCat);
-  const [values, setValues] = useState([0, 1000]);
+  const [values, setValues] = useState([0, 10000]);
   const { getTrackProps, handles } = useRanger(Price(values, setValues));
   return (
     <aside className="col-span-3 lg:hidden">

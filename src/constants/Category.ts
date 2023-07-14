@@ -16,8 +16,8 @@ export const Price = (
   return {
     values,
     onChange: setValues,
-    min: values[0],
-    max: values[1],
+    min: 0,
+    max: 10000,
     stepSize: 5,
   };
 };
