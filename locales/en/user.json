@@ -3,6 +3,7 @@
   "PurchaseHistory": "Purchase History",
   "ManageAccount": "Manage Account",
   "FollowedSellers": "Followed Sellers",
+  "Conversations": "Conversation",
   "DelMyAccount": "Delete My Account",
   "LogOut": "Sign Out",
   "WalletBalance": "Wallet Balance",
@@ -44,5 +45,9 @@
   "Country": "Country",
   "Phone": "Phone",
   "Edit": "Edit",
-  "Delete": "Delete"
+  "Delete": "Delete",
+  "ConversationDescription": "Select a conversation to view all messages",
+  "ConversationWith": "Conversation with",
+  "WriteMessage": "Write Your Message",
+  "SendMessage": "Send Message"
 }

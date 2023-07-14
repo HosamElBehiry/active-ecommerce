@@ -14,8 +14,8 @@ function Layout(props: Interfaces.Actions | Interfaces.Layout) {
   return (
     <Fragment>
       <TopHeader />
-      <Header setToggle={setToggle} />
-      <Offcanvas toggle={toggle} setToggle={setToggle} />
+      <Header {...{ setToggle }} />
+      <Offcanvas {...{ toggle, setToggle }} />
       <Menu />
       {props.children}
       <TopFooter />

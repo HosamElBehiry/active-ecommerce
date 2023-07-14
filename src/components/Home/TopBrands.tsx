@@ -26,8 +26,6 @@ function TopBrands() {
           >
             <Image
               src={`/imgs/brands/${brand.img}`}
-              sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-              priority
               height={1000}
               width={1000}
               className="h-[80px] w-auto mx-auto object-fill"

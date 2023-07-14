@@ -3,6 +3,7 @@
   "PurchaseHistory": "تاريخ الشراء",
   "ManageAccount": "التحكم فى الحساب",
   "FollowedSellers": "البائعون المفضلين",
+  "Conversations": "المحادثات",
   "DelMyAccount": "إزالة الحساب",
   "LogOut": "تسجيل الخروج",
   "WalletBalance": "رصيد المحفظة",
@@ -44,5 +45,9 @@
   "Country": "البلد",
   "Phone": "التليفون",
   "Edit": "تعديل",
-  "Delete": "إزالة"
+  "Delete": "إزالة",
+  "ConversationDescription": "حدد محادثة لعرض جميع الرسائل",
+  "ConversationWith": "محادثة مع ",
+  "WriteMessage": "أكتب رسالة",
+  "SendMessage": "إرسال"
 }
