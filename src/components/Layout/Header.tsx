@@ -51,7 +51,7 @@ function Header(props: Actions) {
         <Link href="/user/wishlist" className="mx-5">
           <AiFillHeart size="1.5rem" />
         </Link>
-        <Link href="#" className="lg:hidden">
+        <Link href="/user/notifications" className="lg:hidden">
           <IoNotifications size="1.5rem" />
         </Link>
       </div>

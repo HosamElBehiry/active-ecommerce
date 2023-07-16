@@ -1,3 +1,5 @@
+// Used in /user/profile , /checkout pages
+
 import { UserProps } from "@/interfaces/User.interface";
 import { AiOutlineClose } from "react-icons/ai";
 
@@ -15,7 +17,7 @@ function AddNewAddress(props: UserProps) {
           <h2 className="font-semibold text-xl">Add New Address</h2>
           <AiOutlineClose
             size="1.3rem"
-            className="text-red-500"
+            className="text-red-500 cursor-pointer"
             onClick={() => props.setActive(!props.active)}
           />
         </div>

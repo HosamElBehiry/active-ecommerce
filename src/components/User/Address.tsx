@@ -1,7 +1,7 @@
 import { useState, Fragment } from "react";
 import { AiOutlineDelete, AiOutlineEdit, AiOutlinePlus } from "react-icons/ai";
 import useTranslation from "next-translate/useTranslation";
-import AddNewAddress from "./AddNewAddress";
+import AddNewAddress from "@/components/Helpers/AddNewAddress";
 
 function Address() {
   const { t } = useTranslation("user");

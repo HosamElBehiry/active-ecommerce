@@ -32,8 +32,13 @@ function BottomMenu() {
           </Link>
         </li>
         <li className="px-4 xs:px-0 flex flex-col items-center whitespace-nowrap">
-          <AiOutlineShoppingCart size="1.3rem" />
-          <span className="mt-1">{t("Cart")}</span>
+          <Link
+            href="/cart"
+            className="flex flex-col items-center whitespace-nowrap"
+          >
+            <AiOutlineShoppingCart size="1.3rem" />
+            <span className="mt-1">{t("Cart")}</span>
+          </Link>
         </li>
         <li className="px-4 xs:px-0 flex flex-col items-center whitespace-nowrap">
           <IoNotificationsOutline size="1.3rem" />
