@@ -19,6 +19,6 @@
   background-color: rgb(185 28 28 / var(--tw-bg-opacity));
 }
 
-.cartContainer:hover > div {
+.cartContainer:hover div {
   display: flex;
 }
