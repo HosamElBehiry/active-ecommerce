@@ -11,7 +11,7 @@ import { RiDeleteBin5Line } from "react-icons/ri";
 
 function Index() {
   return (
-    <Steps step={0}>
+    <Steps step={1}>
       <div className="my-6 border p-3 rounded-md">
         <div className="grid grid-cols-12 p-2">
           <div className="pb-3 font-semibold text-sm text-zinc-400 border-b sm:hidden">

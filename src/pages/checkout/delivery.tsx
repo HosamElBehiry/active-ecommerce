@@ -7,7 +7,7 @@ import { AiOutlineArrowLeft } from "react-icons/ai";
 function Index() {
   const [delivery, setDelivery] = useState(false);
   return (
-    <Steps step={2}>
+    <Steps step={3}>
       <div className="my-6 border p-6 sm:p-3 rounded-md">
         <h3 className="font-semibold text-xl mb-3">Inhouse Products</h3>
         <div className="border p-4 sm:p-2 rounded-md flex items-center sm:block">

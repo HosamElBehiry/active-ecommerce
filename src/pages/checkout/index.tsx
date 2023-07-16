@@ -8,7 +8,7 @@ function Index() {
   const [active, setActive] = useState(false);
   return (
     <Fragment>
-      <Steps step={1}>
+      <Steps step={2}>
         <div className="my-6 border p-6 rounded-md">
           {[0, 1, 2].map((i) => (
             <div

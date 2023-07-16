@@ -9,9 +9,9 @@ function Steps(props: StepsProp) {
           <div
             key={option.name}
             className={`border-b-[5px] border rounded-md p-2 flex flex-col items-center ${
-              props.step && props.step === i
+              props.step && props.step === i + 1
                 ? "text-red-600 border-b-red-600"
-                : props.step && props.step > i
+                : props.step && props.step > i + 1
                 ? "text-green-600 border-b-green-600"
                 : "text-zinc-400"
             }`}
