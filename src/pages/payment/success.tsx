@@ -16,7 +16,7 @@ function Index() {
         </p>
         <Link
           href="/"
-          className="flex items-center justify-center bg-emerald-600 text-white font-semibold p-3 rounded-full w-1/6 hover:bg-emerald-500 transition-all duration-500"
+          className="flex items-center justify-center bg-emerald-600 text-white font-semibold p-3 rounded-full w-1/6 sm:w-1/3 xs:w-1/2 hover:bg-emerald-500 transition-all duration-500"
         >
           {t("Home")}
         </Link>
