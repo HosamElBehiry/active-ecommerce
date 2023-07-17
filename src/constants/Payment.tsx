@@ -5,15 +5,15 @@ import { FaRegMap } from "react-icons/fa";
 
 export const StepOptions: StepsProps = [
   {
-    name: "My Cart",
+    name: "MyCart",
     icon: <AiOutlineShoppingCart size="2rem" />,
   },
   {
-    name: "Shipping Info",
+    name: "ShippingInfo",
     icon: <FaRegMap size="2rem" />,
   },
   {
-    name: "Delivery Info",
+    name: "DeliveryInfo",
     icon: <MdOutlineLocalShipping size="2rem" />,
   },
   {

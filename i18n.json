@@ -29,7 +29,17 @@
     ],
     "rgx:^/user/*": [
       "user",
-      "vendors"
+      "vendors",
+      "payment"
+    ],
+    "/cart": [
+      "payment"
+    ],
+    "rgx:^/checkout/*": [
+      "payment"
+    ],
+    "rgx:^/payment/*": [
+      "payment"
     ]
   }
 }

@@ -1,9 +1,11 @@
 // Used in /user/profile , /checkout pages
 
 import { UserProps } from "@/interfaces/User.interface";
+import useTranslation from "next-translate/useTranslation";
 import { AiOutlineClose } from "react-icons/ai";
 
 function AddNewAddress(props: UserProps) {
+  const { t } = useTranslation("payment");
   return (
     <div
       className={
@@ -14,7 +16,7 @@ function AddNewAddress(props: UserProps) {
     >
       <div className="bg-white p-2 rounded-md w-[768px] sm:w-[95%] sm:mx-auto overflow-y-auto max-h-[90vh]">
         <div className="flex items-center justify-between p-3 border-b">
-          <h2 className="font-semibold text-xl">Add New Address</h2>
+          <h2 className="font-semibold text-xl">{t("AddNewAddress")}</h2>
           <AiOutlineClose
             size="1.3rem"
             className="text-red-500 cursor-pointer"
@@ -27,11 +29,11 @@ function AddNewAddress(props: UserProps) {
               htmlFor="address"
               className="cursor-pointer font-semibold text-zinc-500 xs:mb-1"
             >
-              Your Address
+              {t("Address")}
             </label>
             <input
               className="w-3/4 xs:w-full border outline-0 p-2 rounded-md"
-              placeholder="Your Address"
+              placeholder={t("Address")}
               id="address"
             />
           </div>
@@ -40,7 +42,7 @@ function AddNewAddress(props: UserProps) {
               htmlFor="country"
               className="cursor-pointer font-semibold text-zinc-500 xs:mb-1"
             >
-              Your Country
+              {t("Country")}
             </label>
             <select
               className="w-3/4 xs:w-full border outline-0 p-1 rounded-md bg-white"
@@ -56,7 +58,7 @@ function AddNewAddress(props: UserProps) {
               htmlFor="state"
               className="cursor-pointer font-semibold text-zinc-500 xs:mb-1"
             >
-              Your State
+              {t("State")}
             </label>
             <select
               className="w-3/4 xs:w-full border outline-0 p-1 rounded-md bg-white"
@@ -72,7 +74,7 @@ function AddNewAddress(props: UserProps) {
               htmlFor="city"
               className="cursor-pointer font-semibold text-zinc-500 xs:mb-1"
             >
-              Your City
+              {t("City")}
             </label>
             <select
               className="w-3/4 xs:w-full border outline-0 p-1 rounded-md bg-white"
@@ -88,11 +90,11 @@ function AddNewAddress(props: UserProps) {
               htmlFor="postal-code"
               className="cursor-pointer font-semibold text-zinc-500 xs:mb-1"
             >
-              Postal Code
+              {t("PostalCode")}
             </label>
             <input
               className="w-3/4 xs:w-full border outline-0 p-2 rounded-md"
-              placeholder="Postal Code"
+              placeholder={t("PostalCode")}
               id="postal-code"
             />
           </div>
@@ -101,16 +103,16 @@ function AddNewAddress(props: UserProps) {
               htmlFor="phone"
               className="cursor-pointer font-semibold text-zinc-500 xs:mb-1"
             >
-              Your Phone
+              {t("Phone")}
             </label>
             <input
               className="w-3/4 xs:w-full border outline-0 p-2 rounded-md"
-              placeholder="Your Phone"
+              placeholder={t("Phone")}
               id="phone"
             />
           </div>
           <button className="bg-red-600 text-white font-semibold w-[98%] mx-auto mb-2 block p-2 rounded-md">
-            Save Changes
+            {t("SaveChanges")}
           </button>
         </form>
       </div>

@@ -1,4 +1,5 @@
 import Steps from "@/components/Payment/Steps";
+import useTranslation from "next-translate/useTranslation";
 import Image from "next/image";
 import Link from "next/link";
 import { Fragment } from "react";
@@ -10,33 +11,38 @@ import {
 import { RiDeleteBin5Line } from "react-icons/ri";
 
 function Index() {
+  const { t, lang } = useTranslation("payment");
   return (
     <Steps step={1}>
       <div className="my-6 border p-3 rounded-md">
         <div className="grid grid-cols-12 p-2">
           <div className="pb-3 font-semibold text-sm text-zinc-400 border-b sm:hidden">
-            Qty
+            {t("Qty")}
           </div>
           <div className="pb-3 font-semibold text-sm text-zinc-400 border-b sm:hidden col-span-7 lg:col-span-4 text-center">
-            Product
+            {t("Product")}
           </div>
           <div className="pb-3 font-semibold text-sm text-zinc-400 border-b sm:hidden lg:col-span-2 text-center">
-            Price
+            {t("Price")}
           </div>
           <div className="pb-3 font-semibold text-sm text-zinc-400 border-b sm:hidden lg:col-span-2 text-center">
-            Tax
+            {t("Tax")}
           </div>
           <div className="pb-3 font-semibold text-sm text-zinc-400 border-b sm:hidden lg:col-span-2 text-center">
-            Total
+            {t("Total")}
           </div>
-          <div className="pb-3 font-semibold text-sm text-zinc-400 border-b sm:hidden text-right">
-            Remove
+          <div
+            className={`pb-3 font-semibold text-sm text-zinc-400 border-b sm:hidden ${
+              lang === "en" ? "text-right" : "text-left"
+            }`}
+          >
+            {t("Remove")}
           </div>
           {[1, 2].map((i) => (
             <Fragment key={i}>
               <div className="sm:col-span-6 py-3 font-semibold border-b">
                 <div className="hidden sm:block mb-2 text-center text-sm text-zinc-500">
-                  Qty
+                  {t("Qty")}
                 </div>
                 <div className="flex flex-col sm:justify-center sm:items-center">
                   <button className="bg-gray-200 p-2 rounded-full w-fit">
@@ -54,7 +60,7 @@ function Index() {
               </div>
               <div className="sm:col-span-6 py-3 col-span-7 lg:col-span-4 border-b">
                 <div className="hidden sm:block mb-2 text-center text-sm text-zinc-500 font-semibold">
-                  Product
+                  {t("Product")}
                 </div>
                 <div className="flex items-center xs:block">
                   <Image
@@ -72,31 +78,31 @@ function Index() {
               </div>
               <div className="sm:col-span-6 py-3 font-semibold flex flex-col border-b lg:col-span-2">
                 <div className="hidden sm:block mb-2 text-center text-sm text-zinc-500 font-semibold">
-                  Price
+                  {t("Price")}
                 </div>
                 <div className="flex items-center justify-center flex-1">
-                  72000 EGP
+                  72000 {t("EGP")}
                 </div>
               </div>
               <div className="sm:col-span-6 py-3 font-semibold flex flex-col border-b lg:col-span-2">
                 <div className="hidden sm:block mb-2 text-center text-sm text-zinc-500 font-semibold">
-                  Tax
+                  {t("Tax")}
                 </div>
                 <div className="flex items-center justify-center flex-1">
-                  0 EGP
+                  0 {t("EGP")}
                 </div>
               </div>
               <div className="sm:col-span-6 py-3 font-semibold border-b flex flex-col text-red-600 lg:col-span-2">
                 <div className="hidden sm:block mb-2 text-center text-sm text-zinc-500 font-semibold">
-                  Total
+                  {t("Total")}
                 </div>
                 <div className="flex items-center justify-center flex-1">
-                  72000 EGP
+                  72000 {t("EGP")}
                 </div>
               </div>
               <div className="sm:col-span-6 py-3 border-b flex flex-col">
                 <div className="hidden sm:block mb-2 text-center text-sm text-zinc-500 font-semibold">
-                  Remove
+                  {t("Remove")}
                 </div>
                 <div className="flex items-center justify-end sm:justify-center flex-1">
                   <button className="bg-red-100 p-2 rounded-full">
@@ -107,9 +113,15 @@ function Index() {
             </Fragment>
           ))}
           <div className="col-span-12 flex items-center justify-between flex-wrap">
-            <div className="py-3 font-semibold text-zinc-700">Sub Total</div>
-            <div className="py-3 font-semibold text-right text-lg">
-              19600 EGP
+            <div className="py-3 font-semibold text-zinc-700">
+              {t("SubTotal")}
+            </div>
+            <div
+              className={`py-3 font-semibold ${
+                lang === "en" ? "text-right" : "text-left"
+              } text-lg`}
+            >
+              19600 {t("EGP")}
             </div>
           </div>
           <div className="flex items-center justify-between col-span-12 flex-wrap 2xs:block 2xs:text-center">
@@ -118,13 +130,13 @@ function Index() {
               className="pt-3 font-semibold text-red-600 col-span-10 flex items-center 2xs:justify-center"
             >
               <AiOutlineArrowLeft size="1.2rem" />
-              <span className="mx-1">Return To Shop</span>
+              <span className="mx-1">{t("ReturnShop")}</span>
             </Link>
             <Link
               href="/checkout"
               className="inline-block py-2 px-5 h-fit font-semibold bg-red-600 text-white rounded-md 2xs:my-2"
             >
-              Continue To Shipping
+              {t("ContinueShipping")}
             </Link>
           </div>
         </div>

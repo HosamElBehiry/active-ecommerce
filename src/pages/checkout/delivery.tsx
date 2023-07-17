@@ -1,4 +1,5 @@
 import Steps from "@/components/Payment/Steps";
+import useTranslation from "next-translate/useTranslation";
 import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
@@ -6,10 +7,11 @@ import { AiOutlineArrowLeft } from "react-icons/ai";
 
 function Index() {
   const [delivery, setDelivery] = useState(false);
+  const { t } = useTranslation("payment");
   return (
     <Steps step={3}>
       <div className="my-6 border p-6 sm:p-3 rounded-md">
-        <h3 className="font-semibold text-xl mb-3">Inhouse Products</h3>
+        <h3 className="font-semibold text-xl mb-3">{t("InHouseProduct")}</h3>
         <div className="border p-4 sm:p-2 rounded-md flex items-center sm:block">
           <Image
             src="/imgs/product/2.jpg"
@@ -25,7 +27,7 @@ function Index() {
           </h4>
         </div>
         <div className="mt-3 mb-7 flex items-center justify-between sm:block">
-          <h5 className="font-semibold">Choose Delivery Type</h5>
+          <h5 className="font-semibold">{t("ChangeDelivType")}</h5>
           <div className="flex items-center sm:block">
             <button
               onClick={() => setDelivery(!delivery)}
@@ -36,7 +38,7 @@ function Index() {
                   <div className="h-2 w-2 bg-red-600 rounded-full absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"></div>
                 )}
               </div>
-              <span className="mx-3">Home Delivery</span>
+              <span className="mx-3">{t("HomeDelivery")}</span>
             </button>
             <button
               onClick={() => setDelivery(!delivery)}
@@ -47,7 +49,7 @@ function Index() {
                   <div className="h-2 w-2 bg-red-600 rounded-full absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"></div>
                 )}{" "}
               </div>
-              <span className="mx-3">Local Pickup</span>
+              <span className="mx-3">{t("LocalPickUp")}</span>
             </button>
           </div>
         </div>
@@ -57,13 +59,13 @@ function Index() {
             className="pt-3 font-semibold text-red-600 col-span-10 flex items-center 2xs:justify-center"
           >
             <AiOutlineArrowLeft size="1.2rem" />
-            <span className="mx-1">Return To Shop</span>
+            <span className="mx-1">{t("ReturnShop")}</span>
           </Link>
           <Link
-            href="/checkout"
+            href="/payment"
             className="inline-block py-2 px-5 h-fit font-semibold bg-red-600 text-white rounded-md 2xs:my-2"
           >
-            Continue To Payment
+            {t("ContinuePayment")}
           </Link>
         </div>
       </div>

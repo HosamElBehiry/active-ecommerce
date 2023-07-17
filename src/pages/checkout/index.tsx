@@ -3,9 +3,11 @@ import { AiOutlineArrowLeft, AiOutlinePlus } from "react-icons/ai";
 import Link from "next/link";
 import Steps from "@/components/Payment/Steps";
 import AddNewAddress from "@/components/Helpers/AddNewAddress";
+import useTranslation from "next-translate/useTranslation";
 
 function Index() {
   const [active, setActive] = useState(false);
+  const { t } = useTranslation("payment");
   return (
     <Fragment>
       <Steps step={2}>
@@ -22,14 +24,24 @@ function Index() {
                   )}
                 </div>
                 <div className="mx-4 flex-1">
-                  <h6 className="text-zinc-500 whitespace-nowrap">Address</h6>
                   <h6 className="text-zinc-500 whitespace-nowrap">
-                    Postal Code
+                    {t("Address")}
                   </h6>
-                  <h6 className="text-zinc-500 whitespace-nowrap">City</h6>
-                  <h6 className="text-zinc-500 whitespace-nowrap">State</h6>
-                  <h6 className="text-zinc-500 whitespace-nowrap">Country</h6>
-                  <h6 className="text-zinc-500 whitespace-nowrap">Phone</h6>
+                  <h6 className="text-zinc-500 whitespace-nowrap">
+                    {t("PostalCode")}
+                  </h6>
+                  <h6 className="text-zinc-500 whitespace-nowrap">
+                    {t("City")}
+                  </h6>
+                  <h6 className="text-zinc-500 whitespace-nowrap">
+                    {t("State")}
+                  </h6>
+                  <h6 className="text-zinc-500 whitespace-nowrap">
+                    {t("Country")}
+                  </h6>
+                  <h6 className="text-zinc-500 whitespace-nowrap">
+                    {t("Phone")}
+                  </h6>
                 </div>
                 <div className="mx-4">
                   <h6 className="line-clamp-1">
@@ -49,7 +61,7 @@ function Index() {
                   onClick={() => setActive(!active)}
                   className="bg-yellow-500 font-semibold text-white rounded-md p-2 w-fit sm:w-full h-fit"
                 >
-                  Change Address
+                  {t("ChangeAddress")}
                 </button>
               </div>
             </div>
@@ -59,7 +71,7 @@ function Index() {
             className="my-3 w-full flex flex-col items-center justify-center bg-neutral-200 hover:bg-neutral-300 cursor-pointer transition-all duration-500 p-3 rounded-md"
           >
             <AiOutlinePlus size="1.5rem" />
-            <h3 className="font-semibold text-lg">Add New Address</h3>
+            <h3 className="font-semibold text-lg">{t("AddNewAddress")}</h3>
           </button>
           <div className="flex items-center justify-between col-span-12 flex-wrap 2xs:block 2xs:text-center">
             <Link
@@ -67,13 +79,13 @@ function Index() {
               className="pt-3 font-semibold text-red-600 col-span-10 flex items-center 2xs:justify-center"
             >
               <AiOutlineArrowLeft size="1.2rem" />{" "}
-              <span className="mx-1">Return To Shop</span>
+              <span className="mx-1">{t("ReturnShop")}</span>
             </Link>
             <Link
               href="/checkout/delivery"
               className="inline-block py-2 px-5 h-fit font-semibold bg-red-600 text-white rounded-md 2xs:my-2"
             >
-              Continue To Delivery Info
+              {t("ContinueDelivery")}
             </Link>
           </div>
         </div>
