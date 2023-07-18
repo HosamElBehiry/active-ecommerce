@@ -2,14 +2,17 @@ import Image from "next/image";
 import NumberFormat from "@/constants/Fotmatter";
 import Styles from "@/styles/site/product-card.module.css";
 import useTranslation from "next-translate/useTranslation";
-import { memo } from "react";
+import Link from "next/link";
+
+import { memo, useContext } from "react";
+import { ModalContext } from "@/pages/_app";
 import { ProductCardProps } from "@/interfaces/Product.interface";
 import { AiFillHeart, AiOutlineShoppingCart } from "react-icons/ai";
 import { MdCompareArrows } from "react-icons/md";
-import Link from "next/link";
 
 const ProductCard = (props: ProductCardProps) => {
   const { t, lang } = useTranslation("common");
+  const Context = useContext(ModalContext);
   return (
     <section className={Styles.productContainer}>
       <div className="border p-4 hover:border-red-600 relative">
@@ -56,7 +59,10 @@ const ProductCard = (props: ProductCardProps) => {
             />
           </Link>
         </div>
-        <div className="bg-white rounded-sm text-white p-2 invisible flex items-center justify-center">
+        <div
+          onClick={() => Context?.dispatch({ type: "cartModal" })}
+          className="bg-white rounded-sm text-white p-2 invisible flex items-center justify-center"
+        >
           <AiOutlineShoppingCart size="1.4rem" />
           <span className="mx-2">{t("AddToCart")}</span>
         </div>
